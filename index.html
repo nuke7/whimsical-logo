@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .circle {
+            background-color: #8a00cc;
+            position: relative;
+            z-index: 1;
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+        }
+        .hollow-square {
+            background-color: #ebd0f5;
+            position: absolute;
+            z-index: 2;
+            top: 33%;
+            border-radius: 7px;
+            left: 25%;
+            width: 90px;
+            height: 90px;
+            transform: rotate(45deg)
+        }
+        .purple-square {
+            background-color: #8a00cc;
+            position: absolute;
+            z-index: 3;
+            top: 37.5%;
+            border-radius: 5px;
+            left: 29.5%;
+            width: 67px;
+            height: 67px;
+            transform: rotate(45deg)
+        }
+        .white-square {
+            background-color: #fff;
+            position: absolute;
+            z-index: 3;
+            top: 33%;
+            border-radius: 7px;
+            left: 42%;
+            width: 90px;
+            height: 90px;
+            transform: rotate(45deg);
+            box-shadow: -10px 10px 25px #8a07cd;
+        }
+    </style>
+    <title>Whimsical Logo</title>
+</head>
+<body>
+    <div class="circle">
+        <div class="hollow-square"></div>
+        <div class="purple-square"></div>
+        <div class="white-square"></div>
+    </div>
+</body>
+</html>
